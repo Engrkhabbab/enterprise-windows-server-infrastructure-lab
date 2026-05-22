@@ -1,5 +1,7 @@
 # Windows Server Active Directory Lab
 
+Enterprise-style Windows Server infrastructure lab built on Active Directory domain services and administrative management.
+
 Hands-on Windows Server lab focused on Active Directory Domain Services (AD DS), user and group management, organizational units, DNS configuration, and Group Policy administration.
 
 ---
@@ -32,7 +34,25 @@ Hands-on Windows Server lab focused on Active Directory Domain Services (AD DS),
 
 ## Screenshots
 
-Screenshots will be added soon.
+### Active Directory Structure
+
+![AD Structure](active-directory-structure.png)
+
+### Domain Controller Overview
+
+![Domain Controller](domain-controller-overview.png)
+
+### Domain Users
+
+![Domain Users](domain-users.png)
+
+### Security Groups
+
+![Security Groups](security-groups.png)
+
+### Group Policy Management
+
+![Group Policy](group-policy-management.png)
 
 ---
 
