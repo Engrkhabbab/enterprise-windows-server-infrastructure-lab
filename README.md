@@ -1,4 +1,4 @@
-# Enterprise Windows Server Infrastructure Lab
+# 🚀 Enterprise Windows Server Infrastructure Lab
 
 Enterprise-style Windows Server infrastructure project built using Active Directory Domain Services (AD DS), SMB File Sharing, NTFS Permissions, Organizational Units, Group Policy, and Domain Administration.
 
@@ -6,7 +6,11 @@ This hands-on lab simulates a real-world enterprise environment with centralized
 
 ---
 
-# Technologies Used
+## 🏗 Infrastructure Architecture
+
+![Infrastructure Architecture](infrastructure-architecture-diagram.png)
+
+## 🛠 Technologies Used
 
 * Windows Server 2025
 * Active Directory Domain Services (AD DS)
@@ -22,7 +26,7 @@ This hands-on lab simulates a real-world enterprise environment with centralized
 
 ---
 
-# Infrastructure Components
+## 🏢 Infrastructure Services & Components
 
 ## Active Directory Domain Services
 
@@ -65,7 +69,7 @@ This hands-on lab simulates a real-world enterprise environment with centralized
 
 ---
 
-# Lab Tasks Performed
+## ✅ Lab Tasks Performed
 
 * Installed Windows Server
 * Configured Active Directory Domain Services
@@ -82,62 +86,78 @@ This hands-on lab simulates a real-world enterprise environment with centralized
 
 ---
 
-# Screenshots
+## 🔑 Key Skills Demonstrated
 
-## Active Directory Organizational Units
+- Active Directory Administration
+- Windows Server Administration
+- Group Policy Management
+- DNS Configuration
+- SMB File Sharing
+- NTFS Permissions
+- Enterprise Access Control
+- User & Group Management
+- Organizational Unit Management
+- Domain Infrastructure Administration
+- Network Share Management
+- Windows Infrastructure Troubleshooting
+
+  ---
+  
+## 📸 Screenshots
+
+### Active Directory Organizational Units
 
 ![Active Directory OU](active-directory-organizational-units.png)
 
-## Domain Controller Overview
+### Domain Controller Overview
 
 ![Domain Controller](domain-controller-overview.png)
 
-## Domain Users
+### Domain Users
 
 ![Domain Users](domain-users.png)
 
-## Security Groups
+### Security Groups
 
 ![Security Groups](security-groups.png)
 
-## Group Policy Management
+### Group Policy Management
 
 ![Group Policy](group-policy-management.png)
 
-## Enterprise Folder Structure
+### Enterprise Folder Structure
 
 ![Enterprise Folder Structure](enterprise-folder-structure.png)
 
-## CompanyData Network Share
+### CompanyData Network Share
 
 ![CompanyData Share](companydata-network-share.png)
 
-## Enterprise SMB File Sharing Validation
+### Enterprise SMB File Sharing Validation
 
 ![SMB Validation](enterprise-smb-file-sharing-validation.png)
 
-## HR Group Membership
+### HR Group Membership
 
 ![HR Group](hr-group-membership.png)
 
-## HR Share Permissions
+### HR Share Permissions
 
 ![HR Share Permissions](hr-share-permissions.png)
 
-## HR NTFS Permissions
+### HR NTFS Permissions
 
 ![HR NTFS](hr-ntfs-permissions-final.png)
 
-## IT Admin Group Membership
+### IT Admin Group Membership
 
 ![IT Admin Group](it-admin-group-membership.png)
 
 ---
 
-# Author
+## 👨‍💻 Author
 
 Khabbab Mujtaba Abdallah
 IT Support Engineer | Windows Server | Azure | Networking | Cloud & DevOps
 
-LinkedIn:
-https://www.linkedin.com/in/khabbabmujtaba
+[LinkedIn Profile](https://www.linkedin.com/in/khabbabmujtaba)
