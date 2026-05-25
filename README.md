@@ -1,163 +1,182 @@
 # 🚀 Enterprise Windows Server Infrastructure Lab
 
-Enterprise-style Windows Server infrastructure project built using Active Directory Domain Services (AD DS), SMB File Sharing, NTFS Permissions, Organizational Units, Group Policy, and Domain Administration.
+Enterprise-style Windows Server infrastructure project built using Active Directory Domain Services (AD DS), Organizational Units (OUs), Security Groups, SMB File Sharing, NTFS Permissions, Remote Desktop Services (RDP), and enterprise access control validation.
 
-This hands-on lab simulates a real-world enterprise environment with centralized identity management, departmental access control, shared network resources, and Windows Server administration.
-
----
-
-## 🏗 Infrastructure Architecture
-
-![Infrastructure Architecture](infrastructure-architecture-diagram.png)
-
-## 🛠 Technologies Used
-
-* Windows Server 2025
-* Active Directory Domain Services (AD DS)
-* Organizational Units (OUs)
-* Group Policy (GPO)
-* DNS
-* SMB File Sharing
-* NTFS Permissions
-* Windows Administration
-* User & Group Management
-* Remote Desktop Protocol (RDP)
-* Enterprise Network Shares
+This hands-on lab simulates a real-world enterprise environment with centralized identity management, department-based access control, secure shared resources, and Windows Server administration.
 
 ---
 
-## 🏢 Infrastructure Services & Components
+# 🏗 Infrastructure Architecture
+
+![Infrastructure Diagram](infrastructure-architecture-diagram.png)
+
+---
+
+# 🛠 Technologies Used
+
+- Windows Server 2025
+- Active Directory Domain Services (AD DS)
+- Organizational Units (OUs)
+- Security Groups
+- DNS
+- SMB File Sharing
+- NTFS Permissions
+- Remote Desktop Services (RDP)
+- Windows Administration
+- User & Group Management
+- Enterprise Access Control
+- Role-Based Access Control (RBAC)
+
+---
+
+# 🏢 Infrastructure Components
 
 ## Active Directory Domain Services
-
-* Installed and configured AD DS
-* Promoted Windows Server to Domain Controller
-* Configured domain environment
-* Managed domain users and computers
+- Installed and configured AD DS
+- Promoted server to Domain Controller
+- Managed domain users and authentication
 
 ## Organizational Units (OUs)
+- Created department-based OU structure
+- Organized HR, Finance, and IT departments
 
-* Created enterprise OU structure
-* Organized departments and administrative containers
-* Managed user placement and delegation
+## Security Groups
+- Created department-based security groups
+- Managed centralized access control
 
-## Group Policy Management
-
-* Configured and applied GPOs
-* Managed domain policies
-* Tested policy deployment across domain systems
-
-## Enterprise SMB File Sharing
-
-* Created shared network folders
-* Configured CompanyData shared directory
-* Implemented department-based file access
-* Validated SMB connectivity across domain clients
+## SMB File Sharing
+- Created enterprise shared folders
+- Configured SMB network sharing
+- Implemented department-based access
 
 ## NTFS Permissions & Access Control
+- Configured NTFS permissions
+- Restricted unauthorized access
+- Validated secure department isolation
 
-* Configured NTFS permissions
-* Implemented HR department access restrictions
-* Managed security groups for enterprise access control
-
-## Domain Administration
-
-* Managed users, computers, and groups
-* Validated domain logins
-* Tested client-to-server communication
-* Configured enterprise administrative access
+## Remote Desktop Services (RDP)
+- Configured Remote Desktop access
+- Authorized domain users and groups
+- Validated successful RDP authentication
 
 ---
 
-## ✅ Lab Tasks Performed
+# ✅ Lab Tasks Performed
 
-* Installed Windows Server
-* Configured Active Directory Domain Services
-* Promoted server to Domain Controller
-* Created Organizational Units (OUs)
-* Created domain users and security groups
-* Configured DNS services
-* Applied Group Policies
-* Created SMB network shares
-* Configured NTFS permissions
-* Tested domain authentication
-* Validated enterprise file sharing access
-* Managed administrative permissions
+- Installed Windows Server
+- Configured Active Directory Domain Services
+- Promoted server to Domain Controller
+- Created Organizational Units (OUs)
+- Created domain users and security groups
+- Configured SMB network shares
+- Configured NTFS permissions
+- Validated enterprise file sharing access
+- Configured Remote Desktop access
+- Tested domain authentication
+- Managed administrative permissions
 
 ---
 
-## 🔑 Key Skills Demonstrated
+# 🔒 Access Control Validation
+
+## Authorized Access
+- HR users successfully accessed HR shared folders
+- Finance users successfully accessed Finance folders
+- IT administrators accessed IT resources
+
+## Unauthorized Access Denied
+- HR users denied access to Finance folders
+- Finance users denied access to IT folders
+- Unauthorized users restricted using NTFS permissions
+
+## Remote Desktop Validation
+- Validated domain-based Remote Desktop login
+- Authorized specific users and groups for RDP access
+- Tested successful RDP authentication using domain credentials
+
+---
+
+# 🔑 Key Skills Demonstrated
 
 - Active Directory Administration
 - Windows Server Administration
-- Group Policy Management
-- DNS Configuration
-- SMB File Sharing
 - NTFS Permissions
+- SMB File Sharing
 - Enterprise Access Control
-- User & Group Management
+- Role-Based Access Control (RBAC)
+- Identity & Access Management (IAM)
 - Organizational Unit Management
-- Domain Infrastructure Administration
-- Network Share Management
+- Remote Desktop Services (RDP)
+- User & Group Management
 - Windows Infrastructure Troubleshooting
-
-  ---
-  
-## 📸 Screenshots
-
-### Active Directory Organizational Units
-
-![Active Directory OU](active-directory-organizational-units.png)
-
-### Domain Controller Overview
-
-![Domain Controller](domain-controller-overview.png)
-
-### Domain Users
-
-![Domain Users](domain-users.png)
-
-### Security Groups
-
-![Security Groups](security-groups.png)
-
-### Group Policy Management
-
-![Group Policy](group-policy-management.png)
-
-### Enterprise Folder Structure
-
-![Enterprise Folder Structure](enterprise-folder-structure.png)
-
-### CompanyData Network Share
-
-![CompanyData Share](companydata-network-share.png)
-
-### Enterprise SMB File Sharing Validation
-
-![SMB Validation](enterprise-smb-file-sharing-validation.png)
-
-### HR Group Membership
-
-![HR Group](hr-group-membership.png)
-
-### HR Share Permissions
-
-![HR Share Permissions](hr-share-permissions.png)
-
-### HR NTFS Permissions
-
-![HR NTFS](hr-ntfs-permissions-final.png)
-
-### IT Admin Group Membership
-
-![IT Admin Group](it-admin-group-membership.png)
 
 ---
 
-## 👨‍💻 Author
+# 📸 Screenshots
+
+## Active Directory Initial Structure
+![AD Structure](screenshots/active-directory-initial-structure.png)
+
+## Organizational Units Created
+![OU Created](screenshots/organizational-units-created.png)
+
+## HR Department Users
+![HR Users](screenshots/hr-department-users.png)
+
+## Finance Department Users
+![Finance Users](screenshots/finance-department-users.png)
+
+## IT Department Users
+![IT Users](screenshots/it-department-users.png)
+
+## Security Groups Created
+![Security Groups](screenshots/security-groups-created.png)
+
+## Active Directory Group Membership
+![Group Membership](screenshots/active-directory-group-membership.png)
+
+## Shared Folders Created
+![Shared Folders](screenshots/shared-folders-created.png)
+
+## Network File Sharing Enabled
+![Network Sharing](screenshots/network-file-sharing-enabled.png)
+
+## Share Permissions Setup
+![Share Permissions](screenshots/share-permissions-setup.png)
+
+## HR Folder Permissions
+![HR Permissions](screenshots/hr-folder-secured-permissions.png)
+
+## Finance Folder Permissions
+![Finance Permissions](screenshots/finance-folder-secured-permissions.png)
+
+## IT Folder Permissions
+![IT Permissions](screenshots/it-folder-secured-permissions.png)
+
+## Authorized HR Folder Access
+![Authorized Access](screenshots/authorized-access-to-hr-folder.png)
+
+## Unauthorized IT Folder Access Denied
+![Access Denied](screenshots/unauthorized-access-to-it-folder-denied.png)
+
+## Finance Folder Access Denied
+![Finance Denied](screenshots/finance-folder-access-denied-for-hr-user.png)
+
+## Remote Desktop Users Configured
+![RDP Users](screenshots/remote-desktop-users-members-configured.png)
+
+## Domain Join Success
+![Domain Join](screenshots/domain-join-success.png)
+
+## Successful RDP Login
+![Successful Login](screenshots/successful-rdp-login-with-domain-user.png)
+
+---
+
+# 👨‍💻 Author
 
 Khabbab Mujtaba Abdallah
+
 IT Support Engineer | Windows Server | Azure | Networking | Cloud & DevOps
 
 [LinkedIn Profile](https://www.linkedin.com/in/khabbabmujtaba)
